@@ -9,6 +9,7 @@ import {PlayersRoutingModule} from "./players/players-routing.module";
 import {SharedModule} from "./shared/shared.module";
 import {ServicesModule} from "./services/services.module";
 import { HomeComponent } from './home/home.component';
+import {Test1Module} from './test1/test1.module';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { HomeComponent } from './home/home.component';
     TeamsModule,
     SharedModule,
     ServicesModule,
+    Test1Module
   ],
   providers: [],
   bootstrap: [AppComponent]

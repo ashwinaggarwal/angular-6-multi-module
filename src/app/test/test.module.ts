@@ -1,16 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {TestModule} from '../test/test.module';
 
 @NgModule({
   imports: [
-    CommonModule,
-    TestModule
+    CommonModule
   ],
   declarations: []
 })
-export class SharedModule {
+export class TestModule {
   constructor() {
-    console.log('SharedModule');
+    console.log('TestModule');
   }
-}
+ }

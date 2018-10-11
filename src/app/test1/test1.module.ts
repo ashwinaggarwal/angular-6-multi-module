@@ -9,8 +9,8 @@ import {TestModule} from '../test/test.module';
   ],
   declarations: []
 })
-export class SharedModule {
+export class Test1Module {
   constructor() {
-    console.log('SharedModule');
+    console.log('Test1Module');
   }
-}
+ }
